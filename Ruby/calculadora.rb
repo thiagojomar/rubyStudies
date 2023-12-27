@@ -28,7 +28,8 @@ loop do
     when 5
         break
     else 
-        retornar "Operação invalida"
+        puts "Operação inválida, tente novamente..."
+        retornar = "Operação invalida"
     end
 end
 
